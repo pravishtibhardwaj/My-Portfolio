@@ -42,7 +42,11 @@ const Home = () => {
 
           <h6 style={{ marginTop: "6vw" }}>
             {" "}
-            <Link to={Resume} className="home-btn">
+            <Link
+              to="https://drive.google.com/file/d/1mvFXRmI1uJWRxFxEioNgWnZTehiJZx0i/view?usp=sharing"
+              target="_blank"
+              className="home-btn"
+            >
               <SaveAltIcon />
               Download Resume
             </Link>
@@ -68,7 +72,7 @@ const Home = () => {
           showcase my skills, projects, and achievements in the field of
           computer science and technology. <br />
           <br />
-          <span className="extra-detail" style={{ color: "black" }}>
+          <span className="extra-detail">
             {" "}
             Through my academic journey, I have gained a strong foundation in
             various programming languages, algorithms, data structures, and

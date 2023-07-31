@@ -5,6 +5,7 @@ import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 import Navbar from "./components/Layout/Navbar.jsx";
 import Education from "./components/Education.jsx";
+import Experience from "./components/Experience.jsx";
 import Footer from "./components/Layout/Footer.jsx";
 import { useTheme } from "./components/context/ThemeProvider.jsx";
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Education />
         <Skills />
         <Projects />
+        <Experience />
         <ContactMe />
         <Footer />
       </div>

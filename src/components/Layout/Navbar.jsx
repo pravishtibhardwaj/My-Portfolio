@@ -165,122 +165,18 @@ const Navbar = () => {
       </div>
       <div className="media-links">
         <div className="media-link">
-          <Link to="https://www.linkedin.com/in/pravishti/">
+          <NavLink to="https://www.linkedin.com/in/pravishti/" target="_blank">
             <LinkedInIcon /> <span className="media-name">LinkedIn</span>
-          </Link>
+          </NavLink>
         </div>
         <div className="media-link">
-          <Link to="https://github.com/pravishtibhardwaj">
+          <NavLink to="https://github.com/pravishtibhardwaj" target="_blank">
             <GitHubIcon />
             <span className="media-name">Github</span>
-          </Link>
+          </NavLink>
         </div>
       </div>
     </>
-
-    // <nav className="navbar navbar-expand-lg bg-body-tertiary">
-    //   <div className="container-fluid nav-container">
-    //     <div className="logo">
-    //       {" "}
-    //       <Link to="/" className="navbar-brand ">
-    //         PB
-    //       </Link>
-    //     </div>
-    //     <button
-    //       className="navbar-toggler"
-    //       type="button"
-    //       data-bs-toggle="collapse"
-    //       data-bs-target="#navbarTogglerDemo02"
-    //       aria-controls="navbarTogglerDemo02"
-    //       aria-expanded="false"
-    //       aria-label="Toggle navigation"
-    //     >
-    //       <span className="navbar-toggler-icon" />
-    //     </button>
-
-    //     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-    //       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-    //         <li className="nav-item">
-    //           <Link
-    //             to="about"
-    //             spy={true}
-    //             smooth={true}
-    //             offset={-600}
-    //             duration={100}
-    //             className="nav-link"
-    //           >
-    //             <Person3OutlinedIcon /> About
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link
-    //             to="education"
-    //             spy={true}
-    //             smooth={true}
-    //             offset={-300}
-    //             duration={100}
-    //             className="nav-link nav-btn"
-    //           >
-    //             <SchoolRoundedIcon /> Education
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link
-    //             to="skill"
-    //             spy={true}
-    //             smooth={true}
-    //             offset={-1500}
-    //             duration={100}
-    //             className="nav-link"
-    //           >
-    //             <ChecklistOutlinedIcon /> Skills
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link
-    //             to="projects"
-    //             spy={true}
-    //             smooth={true}
-    //             offset={-500}
-    //             duration={100}
-    //             className="nav-link"
-    //           >
-    //             <TerminalOutlinedIcon /> Projects
-    //           </Link>
-    //         </li>
-    //         {/* <li className="nav-item">
-    //           <Link to="/experience" className="nav-link">
-    //             Experience
-    //           </Link>
-    //         </li> */}
-    //         <li className="nav-item">
-    //           <Link
-    //             to="resume"
-    //             spy={true}
-    //             smooth={true}
-    //             offset={-500}
-    //             duration={100}
-    //             className="nav-link"
-    //           >
-    //             <InventoryOutlinedIcon /> Resume
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link
-    //             to="contact-me"
-    //             spy={true}
-    //             smooth={true}
-    //             offset={-500}
-    //             duration={100}
-    //             className="nav-link nav-btn"
-    //           >
-    //             Contact Me
-    //           </Link>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   </div>
-    // </nav>
   );
 };
 

@@ -26,6 +26,13 @@
 .social-icons a:hover:nth-child(2) {
   color: rgb(1, 1, 7);
 }
+.contact-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .message form {
   display: flex;
   flex-direction: column;
