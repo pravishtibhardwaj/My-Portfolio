@@ -1,0 +1,64 @@
+.contact-container {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contact-img img {
+  border-radius: 50%;
+  margin: 40px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgba(83, 81, 81, 0.813);
+}
+.social-icons a:hover:first-child {
+  color: rgb(4, 4, 222);
+}
+.social-icons a:hover:nth-child(2) {
+  color: rgb(1, 1, 7);
+}
+.message form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(223, 216, 222);
+
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.message,
+input,
+textarea {
+  padding: 7px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+
+  color: black;
+}
+.message button {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  border: none;
+  background-color: rgb(154, 109, 139);
+  border: 2px solid rgb(154, 109, 139);
+  color: white;
+  align-self: center;
+}
+.message button:hover {
+  box-shadow: 2px 1px 2px 1px rgb(162, 161, 161);
+  transition: 0.2s ease;
+}

@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=M+PLUS+Rounded+1c:wght@300;400&family=Marcellus&family=Mate:ital@0;1&family=Noto+Serif:wght@700&family=Open+Sans:ital,wght@0,400;1,300&family=Oxygen&family=Poppins:ital,wght@0,400;1,300&family=Ubuntu:wght@300&display=swap");
+/* font-family: 'Calistoga', cursive;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Marcellus', serif;
+font-family: 'Mate', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+#dark {
+  background-color: rgb(27, 0, 26);
+  color: white;
+  .skills-container {
+    color: black;
+  }
+  .home-container,
+  .project-head {
+    color: white !important;
+    background-color: rgb(27, 0, 26);
+  }
+  .home-container span,
+  .media-link,
+  .project-head span {
+    background-color: inherit !important;
+    border: none !important;
+    color: beige !important;
+  }
+
+  .navbar {
+    background-color: rgb(213, 213, 213);
+  }
+}
+
+.logo {
+  padding-left: 50px;
+  width: 40%;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 800;
+}
+.navbar {
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+  overflow: hidden;
+  opacity: 0.9;
+  z-index: 1;
+  box-shadow: 1px 1px 13px 1px rgb(214, 213, 213);
+}
+.offcanvas {
+  width: 50%;
+}
+.navbar-nav {
+  transition: all 0.3s ease-out 0s;
+}
+
+.nav-list ul {
+  display: flex;
+}
+.nav-item {
+  padding: 12px;
+  list-style: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+.nav-link {
+  border: none;
+}
+.nav-link:hover {
+  border: none;
+  cursor: pointer;
+}
+.offcanvas li {
+  transition: all ease-in-out 0.2s;
+  border: none;
+  position: relative;
+}
+li.nav-link:hover {
+  border: none;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  border-radius: 10px;
+  width: 0px;
+  height: 5px;
+  left: 50%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.845);
+  transition: all ease-in-out 0.2s;
+}
+.nav-link:hover::after {
+  margin-left: 50%;
+
+  width: 10%;
+  left: 0;
+}
+
+.home-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 200px;
+  width: 100%;
+  background-color: rgba(238, 237, 237, 0.763);
+}
+.media-links {
+  position: absolute;
+  top: 30%;
+}
+.media-link {
+  padding: 5px;
+  border: 2px solid black;
+  width: 40px;
+  color: white;
+  background-color: black;
+}
+.media-link:first-child {
+  background-color: rgb(6, 6, 192);
+  border-color: rgb(6, 6, 192);
+}
+.media-link:nth-child(3) {
+  background-color: rgb(198, 5, 5);
+  border-color: rgb(198, 5, 5);
+}
+.media-link:hover {
+  .media-name {
+    display: inline;
+  }
+  width: fit-content;
+
+  transition: 0.2s ease-in-out;
+}
+.media-link a {
+  text-decoration: none;
+  color: white;
+}
+.media-name {
+  transition: 1s ease-in;
+  padding-left: 12px;
+  display: none;
+  font-weight: 600;
+}
+.low-text {
+  font-size: 18px;
+}
+.myprofile {
+  /* padding: 15px; */
+  margin: 60px 0px;
+  color: #4f026edd;
+  font-size: 30px;
+  font-weight: bold;
+}
+.intro {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right img {
+  border-radius: 50%;
+  box-shadow: 2px 2px 6px 2px rgb(198, 196, 196);
+}
+.myname {
+  font-size: "34px";
+  font-weight: "bold";
+  color: rgba(114, 2, 145, 0.685);
+
+  /* transition: 0.4s ease; */
+}
+.home-btn {
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+.home-btn:hover {
+  background-color: rgba(0, 0, 0, 0.532);
+  transition: 0.1s ease;
+}
+.change-theme {
+  width: fit-content;
+  position: fixed;
+  top: 90%;
+  cursor: pointer;
+  right: 0%;
+  color: rgb(222, 204, 3);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.82);
+  border-radius: 4px;
+  z-index: 1000;
+}
+/* .myname::after,
+.myprofile::after {
+  background: #c95bf5;
+  border-radius: 12px;
+  bottom: 1px;
+  content: "";
+  display: block;
+  height: 4px;
+
+  transition: all 0.3s ease-out 0s;
+  width: 0;
+}
+.myname:hover::after {
+  width: 70%;
+} */
+.head-text {
+  /* opacity: 0; */
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.about-me {
+  /* background-color: rgba(128, 128, 128, 0.101); */
+
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  margin-left: 0px;
+  background-color: rgba(254, 245, 255, 0.737);
+}
+.about-me > h3,
+.social-media > h3 {
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.about-me p {
+  width: 80%;
+  /* text-align: justify; */
+  font-size: 19px;
+  font-weight: 600;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-me span,
+.social-media span {
+  color: rgba(128, 0, 128, 0.84);
+  font-weight: 600;
+}
+.footer {
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px -1px 6px 2px rgb(220, 220, 220);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer h5 {
+  padding-right: 20px;
+  font-size: 14px;
+  color: rgb(89, 4, 100);
+}
+
+@media only screen and (max-width: 1165px) {
+  .home-container {
+    padding-top: 100px;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left p {
+    text-align: center;
+  }
+  .right img {
+    height: 300px;
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .right img {
+    height: 200px;
+  }
+  .head-text {
+    font-size: 26px;
+  }
+  .low-text {
+    font-size: 15px;
+  }
+  .myprofile {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .myprofile {
+    font-size: 19px;
+    margin-top: 20px;
+  }
+  .head-text {
+    font-size: 20px;
+  }
+  .low-text {
+    font-size: 13px;
+  }
+  .intro-head {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .home-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+  .about-me h3 {
+    font-size: 22px;
+  }
+  .about-me p {
+    font-size: 16px;
+  }
+  .extra-detail {
+    display: none;
+  }
+  /* .media-links {
+    display: flex;
+  } */
+}
