@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import resume from "../../Assets/201b195_Pravishti Bhardwaj.pdf";
+import resume from "../../Assets/Pravishti Bhardwaj.pdf";
 import { BsFillMoonStarsFill, BsSun } from "react-icons/bs";
 import { useTheme } from "../context/ThemeProvider";
 const Navbar = () => {

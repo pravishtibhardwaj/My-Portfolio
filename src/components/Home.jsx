@@ -43,7 +43,7 @@ const Home = () => {
           <h6 style={{ marginTop: "6vw" }}>
             {" "}
             <Link
-              to="https://drive.google.com/file/d/1mvFXRmI1uJWRxFxEioNgWnZTehiJZx0i/view?usp=sharing"
+              to="https://drive.google.com/file/d/1N3Yz8TgGqno2hmdI_EUxiqeL_OiWg1is/view?usp=sharing"
               target="_blank"
               className="home-btn"
             >

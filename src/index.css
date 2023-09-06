@@ -132,7 +132,7 @@ li.nav-link:hover {
   background-color: rgba(238, 237, 237, 0.763);
 }
 .media-links {
-  position: absolute;
+  position: fixed;
   top: 30%;
 }
 .media-link {
